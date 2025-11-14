@@ -1,0 +1,1 @@
+Ésta carpeta tendrá información sobre sintaxis de html
