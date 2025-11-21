@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <div>
+      <!--id="contact-form" class="form-container"-->
+      <h2>contact form</h2>
+      <form action="">
+        <div>
+          <div>
+            <label for="fname">First Name</label>
+            <input type="text" name="" id="fname" />
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input type="text" name="" id="lname" />
+          </div>
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" name="" id="email" />
+        </div>
+        <div>
+          <p>Query type</p>
+          <div>
+            <div>
+              <input
+                type="radio"
+                id="general"
+                name="query_type"
+                value="General enquiry"
+              />
+              <label for="general">General enquiry</label> <br />
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="support"
+                name="query_type"
+                value="Request support"
+              />
+              <label for="support">Request support</label> <br />
+            </div>
+          </div>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="3" cols="50"></textarea>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="consent" value="true" />
+          <label for="consent">I consent to being contanted by the team</label>
+        </div>
+        <div>
+          <label for="cars">Choose a car:</label>
+          <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>
